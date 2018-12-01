@@ -1,8 +1,6 @@
 # Symfony 4
 
-Well hi there! This repository holds the code and script
-for the [Stellar Development with Symfony 4](https://knpuniversity.com/screencast/symfony4) course on KnpUniversity.
-
+Well hi there! 
 ## Setup
 
 If you've just downloaded the code, congratulations!!
