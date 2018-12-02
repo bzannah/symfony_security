@@ -1,4 +1,9 @@
 security:
+
+    encoders:
+        App\Entity\User:
+            algorithm: bcrypt  # or argon2i - only on php 72
+
     # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
     providers:
         # used to reload user from session & other features (e.g. switch_user)
