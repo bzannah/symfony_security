@@ -40,10 +40,10 @@ security:
 
     # Easy way to control access for large sections of your site
     # Note: Only the *first* access control that matches will be used
-    # you can use the IS_AUTHENTICATED in controllers or twigs 
+    # you can use the IS_AUTHENTICATED in controllers or twigs
     access_control:
-         - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY } # allow users to at least reach the login page anonymously
-         - { path: ^/, roles: IS_AUTHENTICATED_REMEMBERED } # lock all urls - IS_AUTHENTICATED_FULLY will auth for only this present session - REMEMBERED will work with remember me functionality
-         - { path: ^/admin, roles: ROLE_ADMIN }
+         #- { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY } # allow users to at least reach the login page anonymously
+         #- { path: ^/, roles: IS_AUTHENTICATED_REMEMBERED } # lock all urls - IS_AUTHENTICATED_FULLY will auth for only this present session - REMEMBERED will work with remember me functionality
+         #- { path: ^/admin, roles: ROLE_ADMIN }
          #- { path: ^/profile, roles: ROLE_USER }
          #- { path: ^/account, roles: IS_AUTHENTICATED_FULLY } # just checks if user is login or not
