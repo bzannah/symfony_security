@@ -17,7 +17,7 @@ class UserFixtures extends BaseFixture
 
     protected function loadData(ObjectManager $manager)
     {
-        $this->createMany(10, 'main_users', function($i) {
+        $this->createMany(10, 'main_users', function ($i) {
             $user = new User();
             $user->setEmail(sprintf('spacebar%d@example.com', $i));
             $user->setFirstName($this->faker->firstName);
@@ -25,11 +25,12 @@ class UserFixtures extends BaseFixture
                 $user,
                 'foo'
             ));
+            $user->setTwitterUsername($this->faker->userName);
 
             return $user;
         });
 
-        $this->createMany(3, 'admin_users', function($i) {
+        $this->createMany(3, 'admin_users', function ($i) {
             $adminUser = new User();
             $adminUser->setEmail(sprintf('admin%d@example.com', $i));
             $adminUser->setFirstName($this->faker->firstName);
