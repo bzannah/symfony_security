@@ -54,31 +54,3 @@ php bin/console server:run
 Now check out the site at `http://localhost:8000`
 
 Have fun!
-
-## Somebody Has To
-
-Somebody has to go polish the stars,
-They're looking a little bit dull.
-Somebody has to go polish the stars,
-For the eagles and starlings and gulls
-Have all been complaining they're tarnished and worn,
-They say they want new ones we cannot afford.
-So please get your rags
-And your polishing jars,
-Somebody has to go polish the stars.
-
-Shel Silverstein
-
-## A Space Riddle!
-
-> I'm not white and fluffy, but pieces of me *do* orbit the sun. What am I?
-
-**Answer**: The Oort Cloud!
-
-## Have Ideas, Feedback or an Issue?
-
-If you have suggestions or questions, please feel free to
-open an issue on this repository or comment on the course
-itself. We're watching both :).
-
-## Thanks!
