@@ -13,7 +13,7 @@ security:
                 property: email
 
     role_hierarchy:
-        ROLE_ADMIN: [ROLE_ADMIN_COMMENT, ROLE_ADMIN_ARTICLE]
+        ROLE_ADMIN: [ROLE_ADMIN_COMMENT, ROLE_ADMIN_ARTICLE, ROLE_ALLOWED_TO_SWITCH] # for Impersonation (switch_user)
 
     firewalls:
 
@@ -30,6 +30,8 @@ security:
 
             logout:
                 path: app_logout
+
+            switch_user: true # for Impersonation (switch_user)
 
             remember_me:
                 secret:   '%kernel.secret%'
