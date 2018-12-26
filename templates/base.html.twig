@@ -43,6 +43,9 @@
                 </form>
                 <ul class="navbar-nav ml-auto">
                     {% if is_granted('ROLE_USER') %}
+                        <li class="nav-item dropdown" style="margin-right: 75px; margin-top: 20px;">
+                            <div style="color: white">{{ app.user.firstName }}</div>
+                        </li>
                         <li class="nav-item dropdown" style="margin-right: 75px;">
                             <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img class="nav-profile-img rounded-circle" src="{{ app.user.avatarUrl(100) }}">
