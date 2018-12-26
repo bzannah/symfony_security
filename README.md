@@ -1,23 +1,16 @@
-# Symfony 4
+# Symfony 4 Authentication & Authorization
 
-Well hi there! 
+Hey! here
+
 ## Setup
 
 If you've just downloaded the code, congratulations!!
 
-To get it working, follow these steps:
-
-**Download Composer dependencies**
-
-Make sure you have [Composer installed](https://getcomposer.org/download/)
-and then run:
+To get it working, follow these steps: ``cd`` into the root directory
 
 ```
 composer install
 ```
-
-You may alternatively need to run `php composer.phar install`, depending
-on how you installed Composer.
 
 **Configure the the .env File**
 
@@ -53,4 +46,4 @@ php bin/console server:run
 
 Now check out the site at `http://localhost:8000`
 
-Have fun!
+There you go!
